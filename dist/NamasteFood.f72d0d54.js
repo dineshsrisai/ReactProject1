@@ -688,16 +688,16 @@ const Header = ()=>{
                 className: "logo-container",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     className: "res-logo",
-                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGz0WshFYnlwlqP_fs3ErIppUvpuaYfTrZQ&s"
+                    src: "https://logos-world.net/wp-content/uploads/2020/11/Swiggy-Emblem.png"
                 }, void 0, false, {
                     fileName: "app.js",
                     lineNumber: 8,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "app.js",
                 lineNumber: 7,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "nav-items",
@@ -708,73 +708,740 @@ const Header = ()=>{
                         }, void 0, false, {
                             fileName: "app.js",
                             lineNumber: 12,
-                            columnNumber: 21
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "About us"
                         }, void 0, false, {
                             fileName: "app.js",
                             lineNumber: 13,
-                            columnNumber: 21
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Contact us"
                         }, void 0, false, {
                             fileName: "app.js",
                             lineNumber: 14,
-                            columnNumber: 21
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Cart"
                         }, void 0, false, {
                             fileName: "app.js",
                             lineNumber: 15,
-                            columnNumber: 21
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "app.js",
                     lineNumber: 11,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "app.js",
                 lineNumber: 10,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "app.js",
         lineNumber: 6,
-        columnNumber: 9
+        columnNumber: 5
     }, undefined);
 };
 _c = Header;
-const RestaurantCard = ()=>{
+const resList = [
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "968070",
+            "name": "Akshaya Restaurant",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/4/75a575b6-ba1c-4aa3-8ea7-26688b6cdc53_968070.jpg",
+            "locality": "Narsapuram",
+            "areaName": "Narsapuram",
+            "costForTwo": "\u20B9199 for two",
+            "cuisines": [
+                "Chinese",
+                "Biryani",
+                "South Indian"
+            ],
+            "avgRating": 4.6,
+            "parentId": "9078",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "159",
+            "sla": {
+                "deliveryTime": 42,
+                "lastMileTravel": 9.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "40-45 mins",
+                "lastMileTravelString": "9.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-08-17 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-51a3b598-d172-4464-98e4-1f29c604d641"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/palakollu/akshaya-restaurant-narsapuram-rest968070",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "989736",
+            "name": "YFC",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/12/f5a079c4-90ad-4c3a-8c67-2fe41b5d528a_989736.jpg",
+            "locality": "Narsapuram",
+            "areaName": "Narsapuram",
+            "costForTwo": "\u20B9199 for two",
+            "cuisines": [
+                "Continental",
+                "Ice Cream",
+                "Juices",
+                "Pizzas",
+                "Burgers"
+            ],
+            "avgRating": 4.4,
+            "parentId": "227906",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "43",
+            "sla": {
+                "deliveryTime": 49,
+                "lastMileTravel": 9.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "9.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-08-17 21:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-51a3b598-d172-4464-98e4-1f29c604d641"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/palakollu/yfc-narsapuram-rest989736",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "966237",
+            "name": "Madhuri Restaurant",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/30/ef64c921-037d-4dde-bce6-2ce4a019b155_966237.JPG",
+            "locality": "Narsapuram",
+            "areaName": "Narsapuram",
+            "costForTwo": "\u20B9249 for two",
+            "cuisines": [
+                "Chinese",
+                "Biryani",
+                "South Indian",
+                "Fast Food"
+            ],
+            "avgRating": 4.1,
+            "parentId": "249839",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "55",
+            "sla": {
+                "deliveryTime": 45,
+                "lastMileTravel": 9.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "9.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-08-17 15:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-51a3b598-d172-4464-98e4-1f29c604d641"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/palakollu/madhuri-restaurant-narsapuram-rest966237",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "966240",
+            "name": "Sandhya Fast food",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/30/4eed227f-1d1d-47c4-aeb9-446085707e04_966240.JPG",
+            "locality": "Narsapuram",
+            "areaName": "Narsapuram",
+            "costForTwo": "\u20B9199 for two",
+            "cuisines": [
+                "Chinese",
+                "Biryani",
+                "South Indian"
+            ],
+            "avgRating": 3.8,
+            "parentId": "176919",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "51",
+            "sla": {
+                "deliveryTime": 51,
+                "lastMileTravel": 9.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "50-55 mins",
+                "lastMileTravelString": "9.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-08-17 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-51a3b598-d172-4464-98e4-1f29c604d641"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/palakollu/sandhya-fast-food-narsapuram-rest966240",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "981149",
+            "name": "Swaadishta Restaurant",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/26/f26c844c-7bd8-4072-9ac5-39fca0a7c9be_981149.JPG",
+            "locality": "Narsapuram",
+            "areaName": "Narsapuram",
+            "costForTwo": "\u20B9199 for two",
+            "cuisines": [
+                "Chinese",
+                "Biryani",
+                "South Indian"
+            ],
+            "avgRating": 4.1,
+            "parentId": "198397",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "25",
+            "sla": {
+                "deliveryTime": 60,
+                "lastMileTravel": 9.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "55-60 mins",
+                "lastMileTravelString": "9.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-08-17 15:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-51a3b598-d172-4464-98e4-1f29c604d641"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/palakollu/swaadishta-restaurant-narsapuram-rest981149",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "998112",
+            "name": "Cho Cho Fridwings & Family Restaurant",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/26/1f435571-fb94-4c82-ae61-1a44ca4db106_998112.jpg",
+            "locality": "Palakollu Town",
+            "areaName": "Palakollu Town",
+            "costForTwo": "\u20B9199 for two",
+            "cuisines": [
+                "Biryani",
+                "Juices",
+                "Snacks",
+                "Pizzas",
+                "Burgers"
+            ],
+            "avgRating": 4,
+            "parentId": "582020",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "51",
+            "sla": {
+                "deliveryTime": 49,
+                "lastMileTravel": 0.2,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "0.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Currently not taking orders for this location",
+                "nextCloseTime": "2025-08-17 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "UPTO \u20B940"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-51a3b598-d172-4464-98e4-1f29c604d641"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/palakollu/cho-cho-fridwings-and-family-restaurant-palakollu-town-rest998112",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "966306",
+            "name": "Vaibhav Multi Cuisine Restaurant",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/30/ef837b29-7fe9-42e6-95d4-10bcf77f33a4_966306.jpg",
+            "locality": "Palakollu Town",
+            "areaName": "Palakollu Town",
+            "costForTwo": "\u20B9199 for two",
+            "cuisines": [
+                "Chinese",
+                "Biryani",
+                "South Indian"
+            ],
+            "avgRating": 4,
+            "parentId": "346168",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "160",
+            "sla": {
+                "deliveryTime": 50,
+                "lastMileTravel": 1.5,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "1.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Currently not taking orders for this location",
+                "nextCloseTime": "2025-08-17 22:30:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "Akash/Listing%20badge.png",
+                        "shortDescription": "Price Match Promise",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "Akash/Listing%20badge.png",
+                                    "shortDescription": "Price Match Promise"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-51a3b598-d172-4464-98e4-1f29c604d641"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/palakollu/vaibhav-multi-cuisine-restaurant-palakollu-town-rest966306",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "972305",
+            "name": "Sri Maruthi Sweet Home & Bakery",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/15/b71af8c7-1b8a-4d01-8aff-e9cfeed54706_972305.jpg",
+            "locality": "Palakollu Town",
+            "areaName": "Palakollu Town",
+            "costForTwo": "\u20B9149 for two",
+            "cuisines": [
+                "Bakery",
+                "Beverages",
+                "Snacks"
+            ],
+            "avgRating": 4.7,
+            "veg": true,
+            "parentId": "569708",
+            "avgRatingString": "4.7",
+            "totalRatingsString": "12",
+            "sla": {
+                "deliveryTime": 49,
+                "lastMileTravel": 0.2,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "0.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Temporarily closed for delivery"
+            },
+            "badges": {},
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-51a3b598-d172-4464-98e4-1f29c604d641"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/palakollu/sri-maruthi-sweet-home-and-bakery-palakollu-town-rest972305",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+];
+const RestaurantCard = (props)=>{
+    const { resData } = props;
+    const { cloudinaryImageId, name, cuisines, avgRating, costForTwo } = resData?.info;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "res-card",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "res-img",
                 alt: "res-logo",
-                src: "https://bonmasala.com/wp-content/uploads/2022/10/mutton-biriyani-recipe.jpeg"
+                src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 25,
-                columnNumber: 13
+                lineNumber: 666,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: "Meghana Foods"
+                children: name
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 26,
-                columnNumber: 13
+                lineNumber: 667,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: cuisines.join(", ")
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 668,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: [
+                    "Ratings : ",
+                    avgRating
+                ]
+            }, void 0, true, {
+                fileName: "app.js",
+                lineNumber: 669,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: costForTwo
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 670,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: [
+                    "Delivery Time : ",
+                    resData.info.sla.deliveryTime,
+                    " min"
+                ]
+            }, void 0, true, {
+                fileName: "app.js",
+                lineNumber: 671,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 24,
-        columnNumber: 9
+        lineNumber: 665,
+        columnNumber: 5
     }, undefined);
 };
 _c1 = RestaurantCard;
@@ -787,26 +1454,28 @@ const Body = ()=>{
                 children: "Search"
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 34,
-                columnNumber: 13
+                lineNumber: 679,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "res-container",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
-                    fileName: "app.js",
-                    lineNumber: 36,
-                    columnNumber: 17
-                }, undefined)
+                children: resList.map((restaurant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {
+                        resData: restaurant
+                    }, restaurant.info.id, false, {
+                        fileName: "app.js",
+                        lineNumber: 682,
+                        columnNumber: 37
+                    }, undefined))
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 35,
-                columnNumber: 13
+                lineNumber: 680,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 33,
-        columnNumber: 9
+        lineNumber: 678,
+        columnNumber: 5
     }, undefined);
 };
 _c2 = Body;
@@ -816,26 +1485,26 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 45,
-                columnNumber: 13
+                lineNumber: 692,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 46,
-                columnNumber: 13
+                lineNumber: 693,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 44,
-        columnNumber: 9
+        lineNumber: 691,
+        columnNumber: 5
     }, undefined);
 };
 _c3 = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "app.js",
-    lineNumber: 58,
+    lineNumber: 699,
     columnNumber: 13
 }, undefined));
 var _c, _c1, _c2, _c3;

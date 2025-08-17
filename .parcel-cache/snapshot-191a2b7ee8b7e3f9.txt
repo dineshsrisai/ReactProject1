@@ -8,7 +8,7 @@
 88C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\caniuse-lite\data\regions\TW.js133998598566513266 0
 103C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\caniuse-lite\data\features\css-motion-paths.js133998598554518282 0
 110C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@swc\helpers\_\_async_generator_delegate\package.json133998598554168292 0
-53C:\Users\dines\OneDrive\Desktop\NamasteFood\style.css133998665414073407 0
+53C:\Users\dines\OneDrive\Desktop\NamasteFood\style.css133998840267183911 0
 83C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@parcel\optimizer-html\src133998598545631906 1
 61C:\Users\dines\OneDrive\Desktop\NamasteFood\package-lock.json133998598880054129 0
 88C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@parcel\utils\src\objectHash.js133998598550642473 0
@@ -32,15 +32,15 @@
 79C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\ordered-binary\LICENSE133998598544549676 0
 107C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\caniuse-lite\data\features\css-deviceadaptation.js133998598553495237 0
 102C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\caniuse-lite\data\features\rest-parameters.js133998598564686418 0
-48C:\Users\dines\OneDrive\Desktop\NamasteFood\dist133998665487971748 1
+48C:\Users\dines\OneDrive\Desktop\NamasteFood\dist133999007471838817 1
 85C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@parcel\workers\src\types.js133998598550182478 0
 79C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\react-refresh\babel.js133998598545042525 0
 100C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@parcel\core\test\fixtures\config\subfolder133998598547899582 1
-54C:\Users\dines\OneDrive\Desktop\NamasteFood\.gitignore133998603388474933 0
+54C:\Users\dines\OneDrive\Desktop\NamasteFood\.gitignore133999029489697805 0
 80C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@parcel\runtime-rsc\src133998598545742214 1
 88C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\caniuse-lite\data\regions\VU.js133998598566908388 0
 98C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@parcel\core\src\requests\EntryRequest.js133998598551248920 0
-50C:\Users\dines\OneDrive\Desktop\NamasteFood\app.js133998665486721910 0
+50C:\Users\dines\OneDrive\Desktop\NamasteFood\app.js133999007482894476 0
 88C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@parcel\core\test\test-utils.js133998598553888267 0
 80C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\utility-types\README.md133998598548109567 0
 72C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\tslib\README.md133998598547232838 0
@@ -52,7 +52,7 @@
 87C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@parcel\cache\src\LMDBCache.js133998598547769587 0
 71C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\dotenv\LICENSE133998598544629109 0
 132C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\package.json133998598546884933 0
-54C:\Users\dines\OneDrive\Desktop\NamasteFood\index.html133998617033922668 0
+54C:\Users\dines\OneDrive\Desktop\NamasteFood\index.html133998837697611528 0
 91C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\type-fest\source\package-json.d.ts133998598549341902 0
 88C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@swc\helpers\_\_read_only_error133998598556456930 1
 65C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\get-port133998598546227261 1
@@ -1344,7 +1344,7 @@
 73C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\lmdb\binding.gyp133998598552138947 0
 96C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\caniuse-lite\data\features\xhtmlsmil.js133998598567639724 0
 72C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\lmdb\caching.js133998598552905228 0
-72C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\NamasteFood.f72d0d54.js133998665487860525 0
+72C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\NamasteFood.f72d0d54.js133999007471598874 0
 105C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@parcel\core\test\requests\ConfigRequest.test.js133998598550904106 0
 74C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\lmdb\dependencies133998598552598937 1
 95C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\caniuse-lite\data\features\css-zoom.js133998598555926895 0
@@ -2655,7 +2655,7 @@
 108C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@swc\helpers\src\_iterable_to_array_limit_loose.mjs133998598558386554 0
 94C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@swc\helpers\src\_new_arrow_check.mjs133998598558456577 0
 98C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@swc\helpers\src\_non_iterable_spread.mjs133998598558496562 0
-77C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\NamasteFood.3a01df49.css.map133998665360287286 0
+77C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\NamasteFood.3a01df49.css.map133999007470717134 0
 105C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@swc\helpers\src\_object_destructuring_empty.mjs133998598558516571 0
 98C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@swc\helpers\src\_object_spread_props.mjs133998598558536586 0
 83C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\@parcel\utils\.eslintrc.js133998598546237262 0
@@ -3598,9 +3598,9 @@
 103C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\.bin\node-gyp-build-optional-packages-test.cmd133998598568302752 0
 72C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\.bin\parcel.ps1133998598568312824 0
 88C:\Users\dines\OneDrive\Desktop\NamasteFood\node_modules\.bin\update-browserslist-db.ps1133998598568312824 0
-59C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\index.html133998640233665634 0
+59C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\index.html133999007470209863 0
 66C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\logo.e40abd53.png133998642931841733 0
-73C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\NamasteFood.3a01df49.css133998665360258342 0
+73C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\NamasteFood.3a01df49.css133999007470626184 0
 72C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\NamasteFood.7c0ccee6.js133998603016766223 0
 76C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\NamasteFood.7c0ccee6.js.map133998603016836213 0
-76C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\NamasteFood.f72d0d54.js.map133998665487961728 0
+76C:\Users\dines\OneDrive\Desktop\NamasteFood\dist\NamasteFood.f72d0d54.js.map133999007471778804 0

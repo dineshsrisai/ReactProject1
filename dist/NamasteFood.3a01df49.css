@@ -1,69 +1,124 @@
+:root {
+  --primary-color: #ff5722;
+  --secondary-color: #333;
+  --background-color: #f7f9fc;
+  --card-background: #fff;
+  --border-color: #e0e0e0;
+  --shadow-color: #0000001a;
+  --hover-shadow-color: #00000026;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
 .header {
-  border-bottom: 1px solid #e0e0e0;
+  background-color: var(--card-background);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 4px 8px var(--shadow-color);
+  z-index: 100;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 15px 40px;
   display: flex;
-  box-shadow: 0 2px 4px #0000001a;
+  position: sticky;
+  top: 0;
 }
 
 .res-logo {
-  width: 90px;
+  filter: drop-shadow(0 2px 2px #0000001a);
+  width: 100px;
 }
 
 .nav-items > ul {
   margin: 0;
   padding: 0;
   font-size: 1.1rem;
+  font-weight: 500;
   list-style-type: none;
   display: flex;
 }
 
 .nav-items > ul > li {
   cursor: pointer;
-  margin: 0 5px;
-  padding: 10px 15px;
-  transition: color .3s;
+  margin: 0 8px;
+  padding: 10px 20px;
+  transition: color .3s ease-in-out, transform .2s ease-in-out;
+  position: relative;
 }
 
 .nav-items > ul > li:hover {
-  color: #007bff;
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.nav-items > ul > li:after {
+  content: "";
+  background-color: var(--primary-color);
+  width: 0;
+  height: 2px;
+  transition: all .3s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-items > ul > li:hover:after {
+  width: 80%;
 }
 
 .res-container {
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
+  padding: 40px 20px;
   display: flex;
 }
 
 .res-card {
-  background-color: #fff;
-  border-radius: 8px;
-  width: 220px;
+  background-color: var(--card-background);
+  width: 280px;
   height: auto;
-  padding: 15px;
-  transition: transform .3s ease-in-out;
-  box-shadow: 0 4px 8px #00000014;
+  min-height: 320px;
+  box-shadow: 0 6px 15px var(--shadow-color);
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  transition: transform .4s cubic-bezier(.25, .46, .45, .94), box-shadow .4s cubic-bezier(.25, .46, .45, .94);
+  display: flex;
 }
 
 .res-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px #0000001a;
+  box-shadow: 0 12px 25px var(--hover-shadow-color);
+  cursor: pointer;
+  transform: translateY(-10px)scale(1.02);
 }
 
 .res-img {
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 8px;
   width: 100%;
-  height: 140px;
-  margin-bottom: 10px;
+  height: 160px;
+  margin-bottom: 15px;
 }
 
 .res-card h3 {
-  color: #333;
+  color: var(--secondary-color);
+  letter-spacing: -.5px;
   margin-top: 0;
-  margin-bottom: 5px;
-  font-size: 1.1em;
+  margin-bottom: 8px;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.res-card h4 {
+  color: #666;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 400;
 }
 /*# sourceMappingURL=NamasteFood.3a01df49.css.map */
