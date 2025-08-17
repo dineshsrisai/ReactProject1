@@ -1,0 +1,123 @@
+:root {
+  --primary-color: #ff5722; /* A vibrant orange for highlights */
+  --secondary-color: #333333; /* Dark gray for text and primary elements */
+  --background-color: #f7f9fc; /* A soft, light gray for the body background */
+  --card-background: #ffffff; /* Pure white for cards */
+  --border-color: #e0e0e0; /* Light gray for borders */
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --hover-shadow-color: rgba(0, 0, 0, 0.15);
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  color: var(--secondary-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: var(--card-background);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 4px 8px var(--shadow-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.res-logo {
+  width: 100px;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.1));
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.nav-items > ul > li {
+  padding: 10px 20px;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  position: relative;
+}
+
+.nav-items > ul > li:hover {
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.nav-items > ul > li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.nav-items > ul > li:hover::after {
+  width: 80%;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.res-card {
+  height: auto;
+  min-height: 320px;
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--card-background);
+  box-shadow: 0 6px 15px var(--shadow-color);
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.res-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 25px var(--hover-shadow-color);
+  cursor: pointer;
+}
+
+.res-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.res-card h3 {
+  font-size: 1.3em;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--secondary-color);
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.res-card h4 {
+  font-size: 1em;
+  margin: 0;
+  color: #666666;
+  font-weight: 400;
+}
