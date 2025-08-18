@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #ff5722; /* A vibrant orange for highlights */
-  --secondary-color: #333333; /* Dark gray for text and primary elements */
-  --background-color: #f7f9fc; /* A soft, light gray for the body background */
-  --card-background: #ffffff; /* Pure white for cards */
-  --border-color: #e0e0e0; /* Light gray for borders */
+  --primary-color: #ff5722; 
+  --secondary-color: #333333;
+  --background-color: #f7f9fc;
+  --card-background: #ffffff; 
+  --border-color: #e0e0e0; 
   --shadow-color: rgba(0, 0, 0, 0.1);
   --hover-shadow-color: rgba(0, 0, 0, 0.15);
 }
@@ -140,4 +140,5 @@ body {
 .filter-btn:hover {
 background-color: #f0f0f0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
