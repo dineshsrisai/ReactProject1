@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #5B87B1; /* A cool, elegant blue */
-  --secondary-color: #121B23; /* A very dark, almost black blue-gray for text */
-  --background-color: #E6F0F8; /* A very light, subtle blue-gray */
-  --card-background: #ffffff; /* Crisp white for cards */
-  --border-color: #C0D6E9; /* A lighter shade of the primary color for borders */
+  --primary-color: #5B87B1;
+  --secondary-color: #121B23;
+  --background-color: #E6F0F8;
+  --card-background: #ffffff;
+  --border-color: #C0D6E9;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --hover-shadow-color: rgba(0, 0, 0, 0.2);
 }
