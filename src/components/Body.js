@@ -6,7 +6,7 @@ const Body = () => {
 
   useEffect(()=>{
     fetchData();
-  });
+  },[]);
 
   const fetchData = async()=>{
     const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=16.5174552&lng=81.7253415&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
@@ -21,6 +21,10 @@ const Body = () => {
   return (
     <div className="body">
       <div className="filter">
+        <div className="search">
+          <input type="text" className="search-box"/>
+          <button>Search</button>
+        </div>
         <div className="filter-btn">
             <button onClick={()=>{
                 const filteredList = listOfRestaurant.filter((res) => res.info.avgRating > 4);
