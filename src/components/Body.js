@@ -17,7 +17,6 @@ const Body = () => {
     const json = await data.json();
     setRestaurantList(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     setFilteredRestaurant(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-
   }
 
   if(listOfRestaurant.length==0){
@@ -55,5 +54,4 @@ const Body = () => {
     </div>
   );
 };
-
 export default Body;
