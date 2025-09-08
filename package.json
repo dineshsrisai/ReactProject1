@@ -12,6 +12,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "parce": "^1.2.8",
     "parcel": "^2.15.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
